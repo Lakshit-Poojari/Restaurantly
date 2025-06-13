@@ -3,8 +3,96 @@
 }
 
 .f-left{
-    float: left;
+    float: left ;
 }
+
+/* special */
+.special{
+    background-color: black;
+}
+
+.nav_button{
+    background-color: black !important ;
+}
+
+.nav_button:focus{
+    background-color: #cda45e !important ;
+    color: black !important;
+}
+
+.nav_button{
+    color: white;
+}
+
+.nav_button:hover {
+    color: white;
+}
+
+.special_text{
+    color: white !important;
+    
+}
+
+.special_text p, .special_text h2{
+    color: white;
+}
+/* .special_img{
+    width: 30%;
+
+} */
+
+.special_img img{
+    width: 100%;
+
+}
+
+.nav_box{
+    border-right: 2px solid #cda45e ;
+}
+
+/* special */
+
+/* Event */
+.event{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("https://bootstrapmade.com/content/demo/Restaurantly/assets/img/events-bg.jpg");
+    width: 100%;
+    background-size: cover;          /* scales image to cover the container */
+    background-position: center;   
+    height: 600px;     
+    
+    
+}
+
+
+.price{
+    text-decoration-color: #cda45e !important;
+}
+
+.event_slide img{
+    width: 100% !important;
+    height: 500px !important;
+    filter: brightness(100%) !important;
+}
+
+.event_text p, .event_text h2, .event_text h3{
+    color: white !important;
+}
+
+.event_text p{
+    font-size: 20px;
+}
+.event_text p i{
+    color: #cda45e !important;
+    margin-right: 20px !important;
+}
+
+/* .carousel-indicators{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+} */
+/* Event */
+
 /* reservation */
 .reservation{
     background-color: black;
@@ -202,13 +290,12 @@ display: none;
     background-color: black;
 }
 
-.slide img{
+.review_img{
     clip-path:circle(50%);
     width: 33.33%;
     height: 10%;
-    
-   
 }
+
 
 .slide h3{
     color: white;
